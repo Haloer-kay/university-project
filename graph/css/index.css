@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "iconfont";
+    /* Project id 3426357 */
+    src: url('http://at.alicdn.com/t/font_3426357_0tpevs95ixr.woff2?t=1653406747314') format('woff2'),
+        url('http://at.alicdn.com/t/font_3426357_0tpevs95ixr.woff?t=1653406747314') format('woff'),
+        url('http://at.alicdn.com/t/font_3426357_0tpevs95ixr.ttf?t=1653406747314') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main {
+    width: 430px;
+    height: 400px;
+}
+
+.newmain {
+    width: 430px;
+    height: 400px;
+}
+
+textarea {
+    width: 300px;
+    outline: none;
+    border: 2px #ccc solid;
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    resize: none;
+}
+
+.btnGraph {
+    border: none;
+    outline: none;
+    background-color: rgb(65, 69, 253);
+    border-radius: 30px;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+}
+.btnAdd{
+    border: none;
+    outline: none;
+    background-color: rgb(65, 69, 253);
+    border-radius: 30px;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.btnFen {
+    display: none;
+    position: absolute;
+    top: 465px;
+    left: 900px;
+    border: none;
+    outline: none;
+    background-color: rgb(65, 69, 253);
+    border-radius: 30px;
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.btnNext {
+    display: none;
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    border: none;
+    outline: none;
+    background-color: rgb(65, 69, 253);
+    border-radius: 30px;
+    color: #fff;
+    width: 110px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.dfnh3 {
+    position: absolute;
+    top: 20px;
+    left: 820px;
+}
+
+.lowh3 {
+    position: absolute;
+    top: 40px;
+    left: 820px;
+}
